@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,34,75,1) 49%, rgba(0,107,143,1) 100%);
+}
+
+h1 {
+  color: rgb(0, 89, 255);
+}
+
+h2 {
+  color: rgb(75, 137, 253);
+}
+
+h3 {
+  color: rgb(135, 198, 253);
+}
+
+p {
+  text-align: justify;
+  color: rgb(177, 216, 250);
+}
+
+html, body {
+  height: 100%;
+}
+
+header, main, footer {
+  padding: 10px;
+}
+
+header {
+  background: lightgray;
+}
+
+main {
+  flex: 1;
+}

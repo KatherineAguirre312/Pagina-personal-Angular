@@ -1,0 +1,85 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h2 {
+  margin-top: 10px;
+}
+
+.skill-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.skill-bar-item {
+  flex: 1;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.bar {
+  height: 100%;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+}
+
+.percentage {
+  margin-left: 10px;
+}
+
+
+.mifoto {
+  width: 70%;
+  display: flex;
+  background-image: center;
+}
+
+.col1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col1, .col2 {
+  margin: 0 20px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col3, .col4 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
